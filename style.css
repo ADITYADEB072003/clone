@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Outfit:wght@800&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Outfit;
+
+}
+body{
+    background-color:#dadada;
+}
+a{
+    text-decoration: none;
+    color:inherit; 
+}
+nav{
+    display: flex;
+    align-items:  center;
+    justify-content: space-between;
+    background-color: #131921;
+    padding:10px 20px;
+    color:#fff;
+}
