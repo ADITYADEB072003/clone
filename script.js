@@ -28,3 +28,11 @@ next.addEventListener('click',(e)=>{
     }
     changeslide();
 })
+//
+const scroll=document.querySelectorAll('.products');
+for(const item of scroll){
+    item.addEventListener('wheel',(e)=>{
+e.preventDefault();
+item.scrollLeft+=e.deltaY;
+});
+}
